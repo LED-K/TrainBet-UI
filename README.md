@@ -31,5 +31,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 --------------------------------------------------------------------------------------------------------------
 # Important
-You need to deploy the contract first, once done, copy-paste it in the app.js file, in the contract-address variable.
-You'll also need to get the contract ABI, wich is the "artidacts" folder you get after contract deployment & use that one to replace the current one.
+You need to deploy the contract first, once done, copy-paste its address in the app.js file, in the contract-address variable.
+You'll also need to get the contract ABI, wich is the "artifacts" folder you get after contract deployment & use that one to replace the current one.
