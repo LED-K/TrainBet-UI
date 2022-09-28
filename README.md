@@ -1,3 +1,12 @@
+# Important
+You need to deploy the contract first, once done, copy-paste its address in the app.js file, in the contract-address variable.
+You'll also need to get the contract ABI, wich is the "artifacts" folder you get after contract deployment & use that one to replace the current one.
+To test the Dapp you'll need to add the Iexec Sidechain Rpc in your metamask.
+Here are the Iexec Sidechain infos : 
+url: "https://viviani.iex.ec",
+chainId : 133,
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -30,6 +39,4 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 --------------------------------------------------------------------------------------------------------------
-# Important
-You need to deploy the contract first, once done, copy-paste its address in the app.js file, in the contract-address variable.
-You'll also need to get the contract ABI, wich is the "artifacts" folder you get after contract deployment & use that one to replace the current one.
+
